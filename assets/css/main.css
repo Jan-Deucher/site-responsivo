@@ -1,9 +1,10 @@
  .banners{
      display: grid;
-     grid-template-columns: 25% 25% 25% 25% ;
-     grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+     flex-wrap: wrap;
+     grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+     grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 6.25% 6.25%;
      height: calc(70vh - 110px);
-     background: crimson;
+    
 
  }
  
@@ -16,16 +17,16 @@
 #banner2{
     background-image: url('../img/buildings-690364_640.jpg');
     background-repeat: no-repeat;
-    grid-column: 3 / 5;
+    grid-column: 5/ 8;
     grid-row: 2 / 10;
 }
 
  
  #banner3{
     background-color:#0071c5;
-    padding: 15px;
+    padding: 30px;
     color: cornsilk;
-    grid-column: 2 / 3;
+    grid-column: 2 / 5;
     grid-row: 3 / 8;
   
 }
