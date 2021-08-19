@@ -1,0 +1,44 @@
+.menu__link{
+    padding: 28px 8px;
+    color: #0071c5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ativo{
+    background: #0071c5;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 16px 0 0;
+    
+}
+.menu__item{
+   padding-top: 1rem;  
+}
+ 
+.icon{
+    float: right;
+    margin-right: 20rem;
+    margin-top: 0.3rem;
+}
+ 
+ 
+ .search{
+     margin-top: -3%;
+    display: flex;
+    margin-left: 82%;
+    float: right;
+    background: #dfdbdb;
+    
+}
+ 
+#txtBusca, .lupa{
+    border: none;
+    background: #e9e1e1;
+    padding: 28px 12px;
+   
+}
+
+#txtBusca{
+    padding-right: 70px;
+}

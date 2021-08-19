@@ -1,0 +1,42 @@
+ .banners{
+     display: grid;
+     grid-template-columns: 25% 25% 25% 25% ;
+     grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+     height: calc(70vh - 110px);
+     background: crimson;
+
+ }
+ 
+#banner1{
+    background-image: url('../img/abstract-1780148_1920.png');
+    grid-column: 1 / 9;
+    grid-row: 1 / 9;
+}
+
+#banner2{
+    background-image: url('../img/buildings-690364_640.jpg');
+    background-repeat: no-repeat;
+    grid-column: 3 / 5;
+    grid-row: 2 / 10;
+}
+
+ 
+ #banner3{
+    background-color:#0071c5;
+    padding: 15px;
+    color: cornsilk;
+    grid-column: 2 / 3;
+    grid-row: 3 / 8;
+  
+}
+
+#titulo{
+    font-size: 24px;
+    text-align: center;
+}
+
+#text{
+    text-align: left;
+    font-size: 20px;
+}
+
