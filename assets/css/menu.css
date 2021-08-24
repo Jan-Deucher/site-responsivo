@@ -1,4 +1,15 @@
+.menu{
+    display: grid;
+    
+}
+
+
+
+
+
 .menu__link{
+    
+    flex-wrap: wrap;
     padding: 28px 8px;
     color: #0071c5;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,6 +24,7 @@
     
 }
 .menu__item{
+    
    padding-top: 1rem;  
 }
  

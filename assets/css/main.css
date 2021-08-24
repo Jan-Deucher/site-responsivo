@@ -9,20 +9,24 @@
  }
  
 #banner1{
+    flex-wrap: wrap;
     background-image: url('../img/abstract-1780148_1920.png');
     grid-column: 1 / 9;
     grid-row: 1 / 9;
 }
 
 #banner2{
+    flex-wrap: wrap;
     background-image: url('../img/buildings-690364_640.jpg');
     background-repeat: no-repeat;
+    background-position: center;
     grid-column: 5/ 8;
     grid-row: 2 / 10;
 }
 
  
  #banner3{
+    flex-wrap: wrap;
     background-color:#0071c5;
     padding: 30px;
     color: cornsilk;
