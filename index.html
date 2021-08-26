@@ -17,26 +17,28 @@
 </head>
 </head>
 <body class="app">
+    
     <header class="cabecalho">
-        <input type="checkbox" id="bt-menu">
-        <label for="bt-menu"> &#9776; </label>
+        <i class="material-icons bt-menu">dehaze</i>
         <nav class="menu">
             <ul class="menu__lista">
+               <li class="menu__item"><a class="menu__link" id="ativo" href="#">Intel.</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">PRODUTOS</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">SUPORTE</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">SOLUÇÃO</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">DESENVOLVEDORES </a></li>
+                <li class="menu__item"><a class="menu__link" href="#">PARCEIROS</a></li>
+                <li class="menu__item"> 
+                    <a class="menu__link login" href="#"><i class="large material-icons">perm_identity</i></a>
+                </li>
+                <li class="menu__item">  
+                    <a class=" menu__link language" href="#"><i class="large material-icons">language</i>Brasil (Português)</a>
+                </li>
+                <li class="menu__item"> 
+                    <a href="#"><i class="material-icons prefix lupa">search</i></a>
+                </li>
                 <li class="menu__item">
-                    <a class="menu__link ativo" href="#">Intel.</a>
-                    <a class="menu__link" href="#">PRODUTOS</a>
-                    <a class="menu__link" href="#">SUPORTE</a>
-                    <a class="menu__link" href="#">SOLUÇÃO</a>
-                    <a class="menu__link" href="#">DESENVOLVEDORES</a>
-                    <a class="menu__link" href="#">PARCEIROS</a>
-                    <div class="icon">
-                        <a class="menu__link login" href="#"><i class="large material-icons">perm_identity</i></a>
-                        <a class="menu__link language" href="#"><i class="large material-icons">language</i>Brasil (Português)</a>
-                    </div>
-                    <div class="search">
-                        <a href="#"><i class="material-icons prefix lupa">search</i></a>
-                        <input type="text" id="txtBusca" placeholder="Pesquisar Intel.com"/>
-                    </div>
+                    <input type="text" id="txtBusca" placeholder="Pesquisar Intel.com"/>
                 </li>
             </ul>
         </nav>    
@@ -57,7 +59,7 @@
                  </p>
             </span>
         </div>
-    </div>
+    </div> 
     <div class="submenu">
         <ul id="lista-submenu">
             <li id="suporte"> 
@@ -92,7 +94,7 @@
             </li>
         </ul>
 
-    </div>
+    </div> 
     
    <div class="produtos">
         <div class="populares__conteudo">
@@ -157,12 +159,11 @@
                 </div>
             </div>
         </div>
-
-
-
     </div>
     </main>
-    <footer class="rodape"></footer> 
+    <footer class="rodape">2021 - &#169; Todos os direitos reservados</footer> 
+    <script type="text/javascript" src="./assets/js/jquery.js"></script>
+    <script type="text/javascript" src="./assets/js/botao-sanduiche.js"></script>
     
 </body>
 </html>

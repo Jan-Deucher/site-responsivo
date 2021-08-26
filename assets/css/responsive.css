@@ -34,38 +34,18 @@
         margin-right: 0;
     }
 }
-@media screen and (max-width: 800px){
-    .menu__lista{
-        position:static;
-        overflow: hidden; 
-        max-height: 0;
-        transition: all .4s; 
-    }
-
-    label[for="bt-menu"]{
-        display: block;
-    }
-    
-    #bt-menu:checked ~ .menu{
-        margin-left: 0;
-    }
-
-
-    .menu{
-        margin-top: 5px;
-        display: none;
-        margin-left: -100%;
-        transition: all .4s;
-    }
-
-}
-
-
-
-
 
 @media screen and (max-width: 768px) {
+    .menu__item{
+        width: 60%;
+        float: none;
+        border-bottom: 1px solid rgba(70, 130, 199, 0.438);
+        display: hidden;
+    }
 
+   .bt-menu{
+      display: block;
+    }
     .banners{
         justify-content:space-between;
         
@@ -79,12 +59,13 @@
     #banner3{
         grid-column: 1/6;
         grid-row: 1/10;
-       opacity: 85%;
        font-size: 6px;
     }
 }
 
 @media screen and (min-width: 768px) {
+
+
 
     .destaques_principal {
         grid-column: 1 / 4;
@@ -127,24 +108,14 @@
 }
 
 @media screen and (min-width: 992px) {
-    #bt-menu{
-        display: none;
-    }
-    label[for="bt-menu"]{
-        display: none;
-    }
+ 
     .populares__card{
         width: calc(33.33% - 1rem);
     }
 }
 
 @media screen and (min-width: 1200px) {
-    #bt-menu{
-        display: none;
-    }
-    label[for="bt-menu"]{
-        display: none;
-    }
+ 
     .populares__card{
         margin-bottom: 0;
         width: calc(20% - 1rem);

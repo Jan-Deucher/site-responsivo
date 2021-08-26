@@ -1,3 +1,4 @@
+
 .app {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #faf4f4;
@@ -8,12 +9,12 @@
         "rodape"
         "bt-menu";
     grid-template-columns: auto;
-    grid-template-rows: 110px auto auto; 
+    grid-template-rows: 80px auto auto; 
 }
 
 .cabecalho {
-    
-    align-items: center;
+   
+    background: rgb(248, 248, 248);
     display: flex;
     grid-area: cabecalho;
 }
